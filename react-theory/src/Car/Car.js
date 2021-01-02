@@ -1,8 +1,10 @@
 import React from 'react';
+import './Car.css'
 
-export default () => (
+export default props => (
     <div>
-        <p>This is car component</p>
-        <p>Number: <strong>{Math.round(Math.random() * 100)}</strong></p>
+        <h3>Car name: {props.name}</h3>
+        <p>Year: <strong>{props.year}</strong></p>
+        <button onClick={props.onChangeTitle}>Click</button>
     </div>
 )
