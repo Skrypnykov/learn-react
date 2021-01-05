@@ -55,5 +55,9 @@
     "file-loader": "^6.2.0",
     "sass": "^1.32.0",
     "url-loader": "^4.1.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
