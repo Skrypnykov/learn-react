@@ -49,7 +49,7 @@ class App extends Component {
         <div className="container-content">
           <h1 className="header-title">{this.state.pageTitle}</h1>
 
-          <button onClick={this.toggleCarsHandler.bind(this, 'Changed!')}>Toggle cars</button>
+          <button onClick={this.toggleCarsHandler}>Toggle cars</button>
 
           {cars}
 
