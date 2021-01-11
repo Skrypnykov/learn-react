@@ -24,7 +24,40 @@ const AirQuality = () => {
 		});
 
 		map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
-		
+
+		// markers 
+		var marker = new mapboxgl.Marker({ color: 'red' })
+		.setLngLat([37.55, 47.15])
+		.addTo(map);
+
+		marker = new mapboxgl.Marker( { color: 'red' })
+		.setLngLat([37.8, 48.05])
+		.addTo(map);
+
+		marker = new mapboxgl.Marker({ color: 'green' })
+		.setLngLat([36.25, 50])
+		.addTo(map);
+
+		marker = new mapboxgl.Marker({ color: 'green' })
+		.setLngLat([30.51, 50.47])
+		.addTo(map);
+
+		marker = new mapboxgl.Marker({ color: 'gold' })
+		.setLngLat([24.7, 48.95])
+		.addTo(map);
+
+		marker = new mapboxgl.Marker({ color: 'green' })
+		.setLngLat([30.7, 46.5])
+		.addTo(map);
+
+		marker = new mapboxgl.Marker({ color: 'green' })
+		.setLngLat([31.98, 47])
+		.addTo(map);
+
+		marker = new mapboxgl.Marker({ color: 'gold' })
+		.setLngLat([35.35, 46.9])
+		.addTo(map);
+	
 	}, [])
 	
 	return (
