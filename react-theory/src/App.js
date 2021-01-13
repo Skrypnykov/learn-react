@@ -61,9 +61,14 @@ class App extends Component {
           <h1 className="header-title">{this.state.pageTitle}</h1>
 
           <button onClick={this.toggleCarsHandler}>Toggle cars</button>
-
-          {cars}
-
+         
+          <div style={{
+            width: 400,
+            margin: 'auto',
+            paddingTop: '20px'
+          }}>
+            {cars}
+          </div>
         </div>
       </div>
     );
