@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import './App.css';
-import Car from './Car/Car';
+import React, { Component } from 'react'
+import './App.scss'
+import Car from './Car/Car'
 
 class App extends Component {
 
@@ -60,7 +60,7 @@ class App extends Component {
         <div className="container-content">
           <h1 className="header-title">{this.state.pageTitle}</h1>
 
-          <button onClick={this.toggleCarsHandler}>Toggle cars</button>
+          <button className={'AppButton'} onClick={this.toggleCarsHandler}>Toggle cars</button>
          
           <div style={{
             width: 400,
