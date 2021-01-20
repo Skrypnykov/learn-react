@@ -4,6 +4,6 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App title={'I am from props!'}/>, document.getElementById('root'));
 
 reportWebVitals();
